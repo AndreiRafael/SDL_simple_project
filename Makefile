@@ -2,7 +2,7 @@ CXX		  := g++
 CXX_FLAGS := -w -std=c++17 -ggdb
 
 BIN			 := bin
-SRC			 := src/source.cpp
+SRC			 := src/*
 
 SDL_CONFIG   := `sdl2-config --cflags --libs` -lSDL2_image -lSDL2_ttf
 
